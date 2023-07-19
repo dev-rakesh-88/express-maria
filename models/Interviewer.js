@@ -12,7 +12,7 @@ const sequelize = new Sequelize(ENV.DB_NAME, ENV.DB_USERNAME, ENV.DB_PASSWORD, {
   
 });
 
-const Interviewer = sequelize.define('Interviewer', {
+const Interviewer = sequelize.define('interviewer', {
   full_name: {
     type: DataTypes.STRING,
     allowNull: false,
