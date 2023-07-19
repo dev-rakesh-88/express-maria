@@ -16,7 +16,7 @@ const sequelize = new Sequelize(ENV.DB_NAME, ENV.DB_USERNAME, ENV.DB_PASSWORD, {
   
 });
 
-const OTP = sequelize.define('otp', {
+const OTP = sequelize.define('otps', {
   code: {
     type: DataTypes.STRING,
     allowNull: false,
